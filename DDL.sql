@@ -106,5 +106,3 @@ ALTER TABLE job
 ALTER TABLE job
     ADD CONSTRAINT job_employee_fk FOREIGN KEY ( employee_employee_id )
         REFERENCES employee ( employee_id );
-		
-		
