@@ -1,0 +1,5 @@
+﻿deptno;department_name;creation_date;created_by;updated_date;updated_by
+10;IT;1/01/2020;jorge rios;;
+30;Accounting;1/01/2020;jorge rios;;
+40;Legal;1/01/2020;jorge rios;1/03/2023;juan perez
+50;Customer service;1/01/2020;jorge rios;;
