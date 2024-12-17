@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="60E2EE54-466C-D95C-9953-6B67092C81BE">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:18:04 UTC</createdTime>
+<ownerDesignName>TestModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

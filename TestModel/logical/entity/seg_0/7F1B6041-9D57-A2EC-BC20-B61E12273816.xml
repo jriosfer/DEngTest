@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F1B6041-9D57-A2EC-BC20-B61E12273816" name="job">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:18:44 UTC</createdTime>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>job</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="deptno" id="3BC626AF-125B-0A8D-0F1C-8BEF5326DCEF">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:39 UTC</createdTime>
+<generatorID>863B3F5D-F382-6F84-9C2B-F530C429FD40</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F2505211-7EB4-F3F5-8CE6-6F755C02D960</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D25885D2-02F6-D30C-6695-001A3ECCCEA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="D01C5AF8-918D-5CC5-C8BD-CE8190CD14CD">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:21:56 UTC</createdTime>
+<generatorID>BC2261A2-AF25-1D40-C107-DFA3DC88E56A</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7516B006-368E-DAD1-E455-6D28DFC666C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FE38465-B4A2-78EF-37EA-58EF41C6785F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="7F369D7B-0522-57D4-1B7F-3A16B622412B">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:22:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Salary amount (monthly)]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E4C1AF34-639D-BE88-23DC-00EB365D41B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="from_date" id="2D6165C3-0C7F-B2F0-BA33-A4E341D1A729">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:22:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[From the salary is valid]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="until_date" id="1A455C70-8670-AFB2-7BA0-EF26154C3EE5">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:22:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Until  the salary is valid]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation_date" id="26436711-8715-87E3-2694-D1439689E2C4">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's creation date]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_by" id="ACD1E8E0-8914-B2F5-F722-2DEC8F7F204E">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record created  by]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2DE42EF-870B-E07B-D677-88C4EEEA0EE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_date" id="5FF84412-BD98-DCBE-2FDF-2E30A5E86D12">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's update  date]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_by" id="93F12F15-248E-72E5-1185-7303EADEA44D">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record updated by]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2DE42EF-870B-E07B-D677-88C4EEEA0EE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

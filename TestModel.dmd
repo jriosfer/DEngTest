@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TestModel" id="A76CECFA-4360-C8B5-2C7A-9E49D8896EF3" version="3.5">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:18:04 UTC</createdTime>
+<ownerDesignName>TestModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A76CECFA-4360-C8B5-2C7A-9E49D8896EF3</designId>
+</OSDM_Design>

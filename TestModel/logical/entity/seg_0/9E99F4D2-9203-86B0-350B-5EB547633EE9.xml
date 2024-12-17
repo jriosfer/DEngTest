@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E99F4D2-9203-86B0-350B-5EB547633EE9" name="department">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:18:13 UTC</createdTime>
+<comment><![CDATA[Business Areas]]></comment>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>dpt</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="deptno" id="F2505211-7EB4-F3F5-8CE6-6F755C02D960">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:19:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Department Code]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D25885D2-02F6-D30C-6695-001A3ECCCEA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department_name" id="E13C7089-698E-1247-EBE2-F2EC72244874">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:19:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Department Name or Business area name]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>37903238-3070-0E7C-7219-99C1CFE83E5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation_date" id="A12B27A5-DAA5-E50A-B4AA-64F49F0AD30D">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:19:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's creation date]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_by" id="903C1620-A237-C989-002D-C3B7E9FA042F">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record created  by]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2DE42EF-870B-E07B-D677-88C4EEEA0EE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_date" id="DFD31BF3-845F-F2D3-F1FC-72F40677A144">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's update  date]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_by" id="6702A2E3-545C-85E2-3FD9-272DE0CB79DC">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:20:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record updated by]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2DE42EF-870B-E07B-D677-88C4EEEA0EE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56707CDC-5861-64EC-4548-BC73E5114356" name="department PK">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:19:29 UTC</createdTime>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2505211-7EB4-F3F5-8CE6-6F755C02D960</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
