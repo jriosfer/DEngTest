@@ -116,7 +116,9 @@ CREATE TABLE department_load (
     creation_date   VARCHAR2(128) NOT NULL,
     created_by      VARCHAR2(128) NOT NULL,
     updated_date    VARCHAR2(128),
-    updated_by      VARCHAR2(128)
+    updated_by      VARCHAR2(128),
+	loading_date    TIMESTAMP,
+    loading_by      VARCHAR2(128)
 );
 
 COMMENT ON COLUMN department_load.deptno IS
@@ -148,7 +150,9 @@ CREATE TABLE employee_load (
     creation_date VARCHAR2(128) NOT NULL,
     created_by    VARCHAR2(128) NOT NULL,
     updated_date  VARCHAR2(128),
-    updated_by    VARCHAR2(128)
+    updated_by    VARCHAR2(128),
+	loading_date    TIMESTAMP,
+    loading_by      VARCHAR2(128)
 );
 
 COMMENT ON COLUMN employee_load.employee_id IS
@@ -186,7 +190,9 @@ record_number number not null primary key,
     creation_date VARCHAR2(128) NOT NULL,
     created_by    VARCHAR2(128) NOT NULL,
     updated_date  VARCHAR2(128),
-    updated_by    VARCHAR2(128)
+    updated_by    VARCHAR2(128),
+	loading_date    TIMESTAMP,
+    loading_by      VARCHAR2(128)
 );
 
 COMMENT ON COLUMN job_load.salary IS
@@ -244,6 +250,8 @@ insert or update or delete on DEPARTMENT_LOAD
 for each row
 begin
     :new.record_id := DEPTNO_LOAD_NEXT.nextval;
+	:new.loading_date := systimestamp;
+    :new.loading_by:= v('APP_USER');
 	
 end;
 /
@@ -254,6 +262,8 @@ insert or update or delete on EMPLOYEE_LOAD
 for each row
 begin
     :new.record_number := EMPLOYEE_LOAD_NEXT.nextval;
+	:new.loading_date := systimestamp;
+    :new.loading_by:= v('APP_USER');
 	
 end;
 /
@@ -264,6 +274,8 @@ insert or update or delete on JOB_LOAD
 for each row
 begin
     :new.record_number := JOB_LOAD_NEXT.nextval;
+	:new.loading_date := systimestamp;
+    :new.loading_by:= v('APP_USER');
 	
 end;
 /

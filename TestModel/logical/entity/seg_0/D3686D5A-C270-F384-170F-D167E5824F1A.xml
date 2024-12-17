@@ -140,5 +140,33 @@
 <domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="loading_date" id="D3A6F8EB-AFB6-9A99-B07A-9C4FEA9200D6">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 22:59:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[process loading date]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>FA9E6EDD-4D77-6821-2299-29C380625129</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loading_by" id="2351CB20-7A2C-A657-95FA-798DA85B6A38">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 22:59:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Process executed by]]></commentInRDBMS>
+<ownerDesignName>TestModel</ownerDesignName>
+<engineerTo>
+<item key="03E96843-C3A4-53D2-CDEF-BA12D4BD2029" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>
