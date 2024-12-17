@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC966336-2EE6-E1B9-9809-7057F618EB6A" name="employee_load">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<generatorID>32EE1431-72F8-CF61-EE70-FE13D833E22C</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<abbreviation>empl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="3B40E280-52B2-A171-8176-5828ABB38BB5">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee's ID]]></commentInRDBMS>
+<generatorID>52FBD4B6-A333-9C24-C300-663CB0CA9E2E</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FE38465-B4A2-78EF-37EA-58EF41C6785F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="06CC8ED3-B4CE-52F3-1B34-B763C6F94C38">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employees's name]]></commentInRDBMS>
+<generatorID>F2EDB5AB-96E3-9F24-7D1A-63C27D26F500</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>37903238-3070-0E7C-7219-99C1CFE83E5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="CC3D8427-6B26-995B-9A92-DFC0097FAA74">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last name]]></commentInRDBMS>
+<generatorID>E3616739-69C3-46DD-AF55-912AC14B2DCD</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="middle_name" id="D31E31A1-0014-1D03-03DB-82388D69B49D">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Middle name if applies]]></commentInRDBMS>
+<generatorID>06B4DC70-86F1-ACD5-A865-8157D78A7798</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="D1381596-C613-5A5C-783A-C35548ACA00B">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's creation date]]></commentInRDBMS>
+<generatorID>3662F6B0-4EA0-5E5B-4898-3378D8B998C3</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_by" id="5B576107-4F39-FBD9-1E10-E5B4BA428F2B">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record created  by]]></commentInRDBMS>
+<generatorID>CAF3B948-13FF-FA9F-0858-5EA3248E5290</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_date" id="EDC0C2C5-CE91-B832-2EEE-AD4CB45349A1">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's update  date]]></commentInRDBMS>
+<generatorID>5E34DFD3-594F-2530-BD81-E18E510AF3F2</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_by" id="3BA61810-C9DE-8248-1CA0-D620257F09C4">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record updated by]]></commentInRDBMS>
+<generatorID>0842BB57-6789-8EC3-DCF6-780717DFE993</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8F38E73-178A-8150-F34E-3F035C2D670B" name="employee_load_PK">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<generatorID>D0E606B2-456E-7419-6E7E-800DB8DA0CCE</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B40E280-52B2-A171-8176-5828ABB38BB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

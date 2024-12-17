@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="775EEAEC-8E15-9588-2E60-4AEAF702215E" name="job_load">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<generatorID>D3686D5A-C270-F384-170F-D167E5824F1A</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<abbreviation>jobl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="deptno" id="2FEA6ED6-86A9-AD10-811E-7042EFFC3B2B">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<generatorID>47BEFB9B-BCEF-C22F-8E24-75A685EC9F0E</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D25885D2-02F6-D30C-6695-001A3ECCCEA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_id" id="9CB33FB1-2DD2-A5CE-6E00-0633D4E59BFB">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<generatorID>C24BE5CE-1E35-78CE-E161-308D58437B4A</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FE38465-B4A2-78EF-37EA-58EF41C6785F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="F443BD47-992E-3818-9C5F-B1507F6ACB84">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Salary amount (monthly)]]></commentInRDBMS>
+<generatorID>2D16F58D-C0A8-0B6C-911D-A9AF1D02BA0A</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="from_date" id="91DB1CE2-E89C-2B66-89B1-6272FB9ABD79">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[From the salary is valid]]></commentInRDBMS>
+<generatorID>090E1C5B-413C-B4A7-622F-6D1349A01FA2</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="until_date" id="0BE0BF89-28E2-E1A3-E27C-F58772EF13BC">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Until  the salary is valid]]></commentInRDBMS>
+<generatorID>EA655DF5-D243-43E2-1B7D-D3EB2A406EA8</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="8EE1DC2F-42D3-6904-CAFA-075E1CE5C3B8">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's creation date]]></commentInRDBMS>
+<generatorID>85ACA7F7-01CE-6766-8F16-A0AA88DEC90F</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_by" id="E3AC10DC-B54E-8CF1-B036-8B077F9DF4DE">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record created  by]]></commentInRDBMS>
+<generatorID>6E920CFF-4CBF-AA5B-609F-80CCA6146890</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_date" id="2F2BD4D8-759F-2958-4C5C-8861AA15B143">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record's update  date]]></commentInRDBMS>
+<generatorID>A43963B5-9BC3-3A54-76D2-A066ADCB1A85</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_by" id="970B5B85-85A9-CD7D-59B1-F0DFAFFB9D2D">
+<createdBy>Keyrus</createdBy>
+<createdTime>2024-12-17 21:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Record updated by]]></commentInRDBMS>
+<generatorID>0A9A1CEC-DD29-CB4C-F565-4CB28D9CD268</generatorID>
+<ownerDesignName>TestModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B21C79C-9B0A-A517-5AF5-74776CF0BF0F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
